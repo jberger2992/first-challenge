@@ -1,29 +1,30 @@
+/* universal values here */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* default background color for the entire page */
 body {
     background-color: #d9dcd6;
 }
-
+/* header color and font */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets font size and display for the h1 */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* adjusts color for a section in the h1 */
 #seo {
     color: #d9dcd6;
 }
-
+/* sets up the nav bar at the top of the screen */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +41,16 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* adjusts the appearance of the links in the nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* font size for the p */
 p {
     font-size: 16px;
 }
-
+/* sets up large background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* class used to float things to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* class used to float things to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* basic rules for main */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* sets values for the right side section */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -101,7 +102,7 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* basic values for the main sections */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,14 +120,10 @@ main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* set up for the footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
